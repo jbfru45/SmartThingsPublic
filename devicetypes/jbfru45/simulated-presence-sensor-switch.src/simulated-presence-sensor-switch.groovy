@@ -43,14 +43,14 @@ def parse(String description) {
 def arrived() {
 	log.trace "Executing arrived"
 	sendEvent(name: "presence", value: "present")
-    sendEvent(name: "switch", value: "on")
+	sendEvent(name: "switch", value: "on")
 }
 
 
 def departed() {
 	log.trace "Executing departed"
 	sendEvent(name: "presence", value: "not present")
-    sendEvent(name: "switch", value: "off")
+	sendEvent(name: "switch", value: "off")
 }
 
 def on() {
