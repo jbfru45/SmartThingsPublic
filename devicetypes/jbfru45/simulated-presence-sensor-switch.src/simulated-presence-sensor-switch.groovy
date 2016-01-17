@@ -14,7 +14,7 @@
 metadata {
 	definition (name: "Simulated Presence Sensor Switch", namespace: "jbfru45", author: "jbfru45") {
 		capability "Presence Sensor"
-        capability "Switch"
+		capability "Switch"
 
 		command "arrived"
 		command "departed"
