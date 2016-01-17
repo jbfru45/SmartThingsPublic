@@ -54,11 +54,9 @@ def departed() {
 }
 
 def on() {
-	log.debug "Executing 'on'"
 	arrived()
 }
 
 def off() {
-	log.debug "Executing 'off'"
 	departed()
 }
